@@ -1,15 +1,14 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4",
-    authDomain: "a-chat-bd886.firebaseapp.com",
+    apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4", 
+    authDomain: "a-chat-bd886.firebaseapp.com", 
     databaseURL: "https://a-chat-bd886-default-rtdb.firebaseio.com",
-    projectId: "a-chat-bd886",
-    storageBucket: "a-chat-bd886.appspot.com",
-    messagingSenderId: "1074046004183",
-    appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992",
+    projectId: "a-chat-bd886", 
+    storageBucket: "a-chat-bd886.appspot.com", 
+    messagingSenderId: "1074046004183", 
+    appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992", 
     measurementId: "G-MEWB3M053T"
   };
-  
-   // Initialize Firebase
+  // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 //ADD YOUR FIREBASE LINKS HERE
 function addRoom(){
