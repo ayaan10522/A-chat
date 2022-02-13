@@ -8,7 +8,8 @@ var firebaseConfig = {
     appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992",
     measurementId: "G-MEWB3M053T"
   };
-  // Initialize Firebase
+  
+   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 //ADD YOUR FIREBASE LINKS HERE
 function addRoom(){
@@ -44,8 +45,4 @@ document.getElementById("output").innerHTML+=row;
     localStorage.removeItem("room_name");
     window.location="index.html";
     }
-    // Javascript code with syntax highlighting.
-var fun = function lang(l) {
-    dateformat.i18n = require('./lang/' + l)
-    return true;
-  }
+    
