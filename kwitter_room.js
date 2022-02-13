@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDQH8KvD0OhCV0HSKfuC_mkMGpya4xCQbM",
-    authDomain: "kwitter-d7f68.firebaseapp.com",
-    databaseURL: "https://kwitter-d7f68-default-rtdb.firebaseio.com",
-    projectId: "kwitter-d7f68",
-    storageBucket: "kwitter-d7f68.appspot.com",
-    messagingSenderId: "113855316640",
-    appId: "1:113855316640:web:3c5d1fb1bd1a0f96dabfc5",
-    measurementId: "G-12GT734JGC"
+    apiKey: "AIzaSyBpE4s83vdAInbYON5XVETn5mMUVfz3cXo",
+  authDomain: "letschat-61543.firebaseapp.com",
+  databaseURL: "https://letschat-61543-default-rtdb.firebaseio.com",
+  projectId: "letschat-61543",
+  storageBucket: "letschat-61543.appspot.com",
+  messagingSenderId: "282278539513",
+  appId: "1:282278539513:web:7927496c2c54a0f2987228",
+  measurementId: "G-JLF521D6BB"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
