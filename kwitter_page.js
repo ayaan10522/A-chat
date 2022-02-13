@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4",
-  authDomain: "a-chat-bd886.firebaseapp.com",
-  databaseURL: "https://a-chat-bd886-default-rtdb.firebaseio.com",
-  projectId: "a-chat-bd886",
-  storageBucket: "a-chat-bd886.appspot.com",
-  messagingSenderId: "1074046004183",
-  appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992",
-  measurementId: "G-MEWB3M053T"
+    apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4", 
+    authDomain: "a-chat-bd886.firebaseapp.com", 
+    databaseURL: "https://a-chat-bd886-default-rtdb.firebaseio.com",
+    projectId: "a-chat-bd886", 
+    storageBucket: "a-chat-bd886.appspot.com", 
+    messagingSenderId: "1074046004183", 
+    appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992", 
+    measurementId: "G-MEWB3M053T"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -56,8 +56,3 @@ function updateLike(message_id){
           like:updated_likes
     });
 }
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-    dateformat.i18n = require('./lang/' + l)
-    return true;
-  }
