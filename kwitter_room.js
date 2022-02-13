@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4", 
+   apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4", 
     authDomain: "a-chat-bd886.firebaseapp.com", 
     databaseURL: "https://a-chat-bd886-default-rtdb.firebaseio.com",
     projectId: "a-chat-bd886", 
@@ -30,7 +30,7 @@ snapshot.forEach(function(childSnapshot)
 console.log("Room Name -" +Room_name);
 row="<div class='room_name' id="+Room_name+" onclick='GoToRoom_Name(this.id)'>#"+Room_name+"</div><hr>";
 document.getElementById("output").innerHTML+=row;
-    //End code
+    //End cod
     });});}
     getData();
     function redirectToRoomName(name){
