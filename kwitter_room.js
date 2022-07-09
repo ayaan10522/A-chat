@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyBpE4s83vdAInbYON5XVETn5mMUVfz3cXo",
-  authDomain: "letschat-61543.firebaseapp.com",
-  databaseURL: "https://letschat-61543-default-rtdb.firebaseio.com",
-  projectId: "letschat-61543",
-  storageBucket: "letschat-61543.appspot.com",
-  messagingSenderId: "282278539513",
-  appId: "1:282278539513:web:7927496c2c54a0f2987228",
-  measurementId: "G-JLF521D6BB"
+   apiKey: "AIzaSyDFCKmLGER9PAfTMuugRhuV6foVEDSalH4", 
+    authDomain: "a-chat-bd886.firebaseapp.com", 
+    databaseURL: "https://a-chat-bd886-default-rtdb.firebaseio.com",
+    projectId: "a-chat-bd886", 
+    storageBucket: "a-chat-bd886.appspot.com", 
+    messagingSenderId: "1074046004183", 
+    appId: "1:1074046004183:web:fc2b7c7934dfaecec6f992", 
+    measurementId: "G-MEWB3M053T"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -30,7 +30,7 @@ snapshot.forEach(function(childSnapshot)
 console.log("Room Name -" +Room_name);
 row="<div class='room_name' id="+Room_name+" onclick='GoToRoom_Name(this.id)'>#"+Room_name+"</div><hr>";
 document.getElementById("output").innerHTML+=row;
-    //End code
+    //End cod
     });});}
     getData();
     function redirectToRoomName(name){
@@ -44,8 +44,4 @@ document.getElementById("output").innerHTML+=row;
     localStorage.removeItem("room_name");
     window.location="index.html";
     }
-    // Javascript code with syntax highlighting.
-var fun = function lang(l) {
-    dateformat.i18n = require('./lang/' + l)
-    return true;
-  }
+    
